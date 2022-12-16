@@ -26,7 +26,7 @@ public class Main {
 
         Book book1 = new Book(1L, "Omur", Genre.HISTORICAL, BigDecimal.valueOf(250), "Abdishukur Narmatov", Language.KYRGYZ, LocalDate.of(2015, 12, 25));
         Book book2 = new Book(2L, "Adam adebi", Genre.HISTORICAL, BigDecimal.valueOf(350), "Abdishukur Narmatov", Language.KYRGYZ, LocalDate.of(2017, 12, 25));
-        Book book3 = new Book(3L, "Beiish jolu", Genre.HISTORICAL, BigDecimal.valueOf(290), "Abdishukur Narmatov", Language.KYRGYZ, LocalDate.of(2016, 12, 25));
+        Book book3 = new Book(3L, "Beiish jolu", Genre.HISTORICAL, BigDecimal.valueOf(290), "Abdishukur asdfasdfNarmatov", Language.KYRGYZ, LocalDate.of(2016, 12, 25));
 
         User user1 = new User(1L, "Alisher", "Nurmatov", "alisher00@gmail.com", "+996700700700", Gender.MALE, BigDecimal.valueOf(1200), new ArrayList<>());
         User user2 = new User(2L, "Bakyt", "Baiysh uulu", "bakyt00@gmail.com", "+996500700700", Gender.MALE, BigDecimal.valueOf(2200), new ArrayList<>());
